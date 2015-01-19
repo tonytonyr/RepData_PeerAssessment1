@@ -16,10 +16,16 @@ activity <- as.data.frame(activity)
 
 ## What is mean total number of steps taken per day?
 ```{r}
+library(plyr)
+cdata <- ddply(activity, c("date"), summarize, dailySteps=sum(steps, na.rm=TRUE))
+hist(cdata$dailySteps)
 ```
 
 ## What is the average daily activity pattern?
-
+```{r}
+plot(cdata)
+```
+plot(cdata)
 
 
 ## Imputing missing values
