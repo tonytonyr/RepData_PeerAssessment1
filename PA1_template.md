@@ -1,13 +1,9 @@
----
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
+# Reproducible Research: Peer Assessment 1
 
 
 ## Loading and preprocessing the data
-```{r}
+
+```r
 activity <- read.csv("activity.csv")
 activity[,2] <- as.Date(activity[,2])
 activity <- as.data.frame(activity)
@@ -15,8 +11,7 @@ activity <- as.data.frame(activity)
 
 
 ## What is mean total number of steps taken per day?
-```{r}
-```
+
 
 ## What is the average daily activity pattern?
 

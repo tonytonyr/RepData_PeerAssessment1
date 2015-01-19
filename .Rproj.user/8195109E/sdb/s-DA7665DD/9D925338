@@ -1,0 +1,17 @@
+{
+    "contents" : "\n\nactivity <- read.csv(\"activity.csv\")\nactivity[,2] <- as.Date(activity[,2])\nactivity <- as.data.frame(activity)\n\n",
+    "created" : 1421621602303.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "1603433709",
+    "id" : "9D925338",
+    "lastKnownWriteTime" : 31244048835477601,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

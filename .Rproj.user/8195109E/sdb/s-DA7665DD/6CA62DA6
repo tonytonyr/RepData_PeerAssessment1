@@ -1,0 +1,16 @@
+{
+    "contents" : "---\ntitle: \"Reproducible Research: Peer Assessment 1\"\noutput: \n  html_document:\n    keep_md: true\n---\n\n\n## Loading and preprocessing the data\n```{r}\nactivity <- read.csv(\"activity.csv\")\nactivity[,2] <- as.Date(activity[,2])\nactivity <- as.data.frame(activity)\n```\n\n\n## What is mean total number of steps taken per day?\n```{r}\n```\n\n## What is the average daily activity pattern?\n\n\n\n## Imputing missing values\n\n\n\n## Are there differences in activity patterns between weekdays and weekends?\n",
+    "created" : 1421616143310.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3773203026",
+    "id" : "6CA62DA6",
+    "lastKnownWriteTime" : 1421625598,
+    "path" : "~/R/RepData_PeerAssesment12/PA1_template.Rmd",
+    "project_path" : "PA1_template.Rmd",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

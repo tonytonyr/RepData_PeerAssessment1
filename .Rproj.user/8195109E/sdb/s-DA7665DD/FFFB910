@@ -1,0 +1,17 @@
+{
+    "contents" : "library(RCurl)\nurl <- \"https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip\"\ntargetFile <- \"repdata_data_activity.zip\"\n\nif(!file.exists(targetFile)) {\n        bf <- getBinaryURL(url, ssl.verifypeer=FALSE)\n        tf <- file(targetFile, open = \"wb\")\n        writeBin(bf, tf)\n        close(tf)\n}\n\nc <-- unz(targetFile)",
+    "created" : 1421616304353.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3388832185",
+    "id" : "FFFB910",
+    "lastKnownWriteTime" : 140770672,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
